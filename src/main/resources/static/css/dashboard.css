@@ -1,0 +1,58 @@
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+.tab div {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+.tab div:hover {
+  background-color: #ddd;
+}
+.tab div.active {
+  background-color: #ccc;
+}
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+  background-color: aliceblue;
+}
+.button {
+  padding: 1px 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: slategrey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  margin-left: 75px;
+  margin-top: 10px;  
+  margin-bottom: 10px;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+#fromDate, #toDate, #numberOfDays {
+	width: 113px;
+}
+.leaveSubContainer {
+	float: left;
+}
+.report-table {	
+    margin-left: 500px;
+    margin-top: 75px;	
+}

@@ -1,0 +1,39 @@
+.box-effect {
+	box-shadow: 10px 5px 5px 5px grey;
+}
+.login-bg {
+	background-color: aliceblue;
+}
+.align-center {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 250px;
+	width: 550px;
+}
+.center-align {
+	text-align: center;
+}
+.h183 { height: 183px}
+.ml191 {margin-left: 191px}
+.mt10 {margin-top: 10px;}
+.button {
+  padding: 5px 20px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: slategrey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.red {
+	color: red;
+}
